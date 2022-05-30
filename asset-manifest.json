@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-storeasy/static/css/main.e6e06dcd.css",
-    "main.js": "/react-storeasy/static/js/main.7cd6e156.js",
+    "main.js": "/react-storeasy/static/js/main.4422ed5b.js",
     "static/media/background.png": "/react-storeasy/static/media/background.851aae2ee1ad59cb67f4.png",
     "static/media/garagem-nautica.png": "/react-storeasy/static/media/garagem-nautica.34319b1bb89ac2b48813.png",
     "static/media/quartinho.png": "/react-storeasy/static/media/quartinho.317247eef5973acc1ffe.png",
@@ -14,10 +14,10 @@
     "static/media/garagem.png": "/react-storeasy/static/media/garagem.1a61971eeb5409413032.png",
     "index.html": "/react-storeasy/index.html",
     "main.e6e06dcd.css.map": "/react-storeasy/static/css/main.e6e06dcd.css.map",
-    "main.7cd6e156.js.map": "/react-storeasy/static/js/main.7cd6e156.js.map"
+    "main.4422ed5b.js.map": "/react-storeasy/static/js/main.4422ed5b.js.map"
   },
   "entrypoints": [
     "static/css/main.e6e06dcd.css",
-    "static/js/main.7cd6e156.js"
+    "static/js/main.4422ed5b.js"
   ]
 }
