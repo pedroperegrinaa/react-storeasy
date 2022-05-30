@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+.container-home-prop{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    a{
+        color: #000;
+        text-decoration: none;
+    }
+    .prop-container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 60px;
+        .prop-buttons{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            .prop-button{
+                display: flex;
+                height: 100px;
+                width: 200px;
+                justify-content: center;
+                align-items: center;
+                user-select: none;
+                margin-left: 10px;
+                background-color: rgba(226, 239, 227, 1);
+                border-radius: 5px;
+                margin-top: 10px;
+                padding: 15px;
+                cursor: pointer;
+                .button-frase{
+                    margin: 0 11px;
+                    font-size: 17px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .prop-button:hover{
+            background-color: #DD0AC8;
+            color: white;
+        }
+        .prop-content{
+            display: flex;
+            justify-content: center;
+            margin-top:60px;
+            .content-espaco{
+                
+                padding-bottom: 400px;
+                h1,
+                h3{
+                    text-align: center;
+                    font-weight: 500;
+                }
+                .blog-title {
+                    overflow: hidden;
+                    text-align: center;
+                }
+                .blog-title:before,
+                .blog-title:after {
+                    background-color: #000;
+                    content: "";
+                    display: inline-block;
+                    height: 1px;
+                    position: relative;
+                    vertical-align: middle;
+                    width: 10vw;
+                }
+                .blog-title:before {
+                    right: 0.5em;
+                    margin-left: -50%;
+                }
+                .blog-title:after {
+                    left: 0.5em;
+                    margin-right: -50%;
+                }
+                h3{
+                    margin-top: 40px;
+                    margin-bottom: 10px;
+                }
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .espaco-itens{
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                   
+                    
+                    .espaco-item{
+                        margin: 15px;
+                        width:280px;
+                        font-size: 15px;
+                        border-radius: 50px;
+                        img{
+                            border-top-left-radius: 10px;
+                            border-top-right-radius: 10px;
+                            width: 100%;
+                        }
+                        .item-espaco-infos{
+                            .info-espaco{
+
+                                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                                
+                                
+                                padding: 10px;
+                                .info{
+                                    margin: 5px 0;
+                                    span{
+                                       font-weight: bold 
+                                    }
+                                }
+                            }
+                        }
+                        .buttonVerItem{
+                            width: 100%;
+                            font-size: 18px;
+                            border: none;
+                            font-weight: 'bold';
+                            padding: 10px;
+                            margin-top: 0;
+                            font-family: Arial, Helvetica, sans-serif;
+                            background-color: floralwhite;
+                            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                            border-top:0.1px solid black;
+                            border-bottom-right-radius: 10px;
+                            border-bottom-left-radius: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

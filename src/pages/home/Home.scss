@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+.container-home {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        max-width: 1340px;
+    }
+    footer{
+        bottom: 0;
+        width: 100%;
+    
+    }
+}

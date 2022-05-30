@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+.container-infosImovel{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 60px;
+    .infosImovel-title{
+        h1{
+            font-weight: 500;
+            text-align: center;
+        }
+        h3{
+            font-weight: 500;
+            margin: 10px 0px;
+            text-align: center;
+        }
+        p{
+            width: 600px;
+            font-weight: 400;
+        }
+    }
+    .infosImovel-local{
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .local-infos{}
+        .local-map,
+        .local-map img{
+            height: 150px;
+            width: 150px;
+            background-color: rgba(226, 239, 227, 1);
+            border-radius: 50%;
+            border: 2px solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    
+}

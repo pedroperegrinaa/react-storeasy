@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+.ItemContainer {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+
+    h1 {
+        text-align: center;
+        font-size: 24px;
+         font-weight: 600;
+    }
+
+    .ListItem{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        li{
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            align-items: center;
+            justify-content: space-around;
+            img {
+                width: 300px;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 10px;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+            .block{
+                width: 300px;
+                height: 120px;
+                background: #fff;
+                cursor: pointer;
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+               
+            }
+            .block:hover {
+                transition-duration: 0.4s;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px;
+            }
+            .bottomBlock{
+                width: 300px;
+                height: 50px;
+                border-radius: 10px;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                background: #DD0AC8;
+                margin-bottom: 50px;
+                cursor: pointer;
+                    .linkBlock {
+                        list-style-type: none;
+                        text-decoration: none;
+                        color: black;
+                    }
+               
+                h2{
+                    text-align: center;
+                    margin-top: 12px;
+                    
+                }
+                h2:hover{
+                    color: #fff;
+                }
+               
+            }
+            .dados {
+                margin-top: 12px;
+                margin-left: 20px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                max-width: 340px;
+                
+                h2 {
+                    font-size: 20px;
+                    
+                }
+                p{
+                    
+                    margin-left: 20px;
+                    
+                }
+            }
+          
+        }
+
+        
+
+    }
+
+}
